@@ -5,26 +5,30 @@ import Hero from "../components/Hero";
 const Home = () => {
   return (
     <div className="container mx-auto flex font-sans px-28 text-base m-4 text-slate-400 font-poppins">
-              <div className="w-48 h-48 bg-blue-950 rounded-full fixed z-0 top-0 left-0 -mt-24 -ml-24"></div>
-              <div className="w-96 h-96 border-2 border-blue-950 rounded-full fixed z-0 top-0 left-0 -mt-48 -ml-48"></div>
-              <div className="w-[70rem] h-[70rem] border-2 border-blue-950 rounded-full fixed z-0 top-0 left-0 -mt-[35rem] -ml-[35rem]"></div>
-              <div className="w-[100rem] h-[100rem] border-2 border-blue-950 rounded-full fixed z-0 top-0 left-0 -mt-[50rem] -ml-[50rem]"></div>
-              <div className="w-[140rem] h-[140rem] border-2 border-blue-950 rounded-full fixed z-0 top-0 left-0 -mt-[70rem] -ml-[70rem]"></div>
-              <div className="w-[180rem] h-[180rem] border-2 border-blue-950 rounded-full fixed z-0 top-0 left-0 -mt-[90rem] -ml-[90rem]"></div>
-              <div className="w-[220rem] h-[220rem] border-2 border-blue-950 rounded-full fixed z-0 top-0 left-0 -mt-[110rem] -ml-[110rem]"></div>
+      <div className="w-48 h-48 bg-blue-950 rounded-full fixed z-0 top-0 left-0 -mt-24 -ml-24 animate-bounce-slow"></div>
+      <div className="w-96 h-96 border-2 border-blue-950 rounded-full fixed z-0 top-0 left-0 -mt-48 -ml-48 animate-bounce-slow blur-sm"></div>
+      <div className="w-[70rem] h-[70rem] border-2 border-blue-950 rounded-full fixed z-0 top-0 left-0 -mt-[35rem] -ml-[35rem] animate-bounce-slow blur-sm"></div>
+      <div className="w-[100rem] h-[100rem] border-2 border-blue-950 rounded-full fixed z-0 top-0 left-0 -mt-[50rem] -ml-[50rem] animate-bounce-slow blur-sm"></div>
+      <div className="w-[140rem] h-[140rem] border-2 border-blue-950 rounded-full fixed z-0 top-0 left-0 -mt-[70rem] -ml-[70rem] animate-bounce-slow blur-sm"></div>
+      <div className="w-[180rem] h-[180rem] border-2 border-blue-950 rounded-full fixed z-0 top-0 left-0 -mt-[90rem] -ml-[90rem] animate-bounce-slow blur-sm"></div>
+      <div className="w-[230rem] h-[230rem] border-2 border-blue-950 rounded-full fixed z-0 top-0 left-0 -mt-[115rem] -ml-[115rem] animate-bounce-slow blur-sm"></div>
 
-              <div className="fixed bottom-0 right-0 p-10">Up</div>
-              
+      {/* upppp */}
+      <div className="fixed bottom-8 right-10 p-6 rounded-xl bg-sky-900/[0.5] hover:bg-blue-500/[0.6] cursor-pointer">
+        Up
+      </div>
 
       {/* left */}
-      <div className="h-screen w-1/2 flex justify-end px-24">
+      <div className="h-screen w-1/2 flex justify-end px-24 z-10">
         {/* top */}
         <div className="flex-nowrap fixed top-0 h-screen max-w-1/2 pt-24 justify-between">
           <h1 className="font-bold text-5xl tracking-tight text-slate-200">
             Tegar Ardi Rohman
           </h1>
 
-          <h2 className="pt-4 text-md text-blue-100">Junior Fullstack Web Developer</h2>
+          <h2 className="pt-4 text-md text-sky-50">
+            Junior Fullstack Web Developer
+          </h2>
 
           <h3 className="pt-4 leading-normal">
             Blending Creativity and Code, Turning Ideas into Reality.
@@ -170,14 +174,11 @@ const Home = () => {
       </div>
 
       {/* right */}
-      <div className="w-1/2 py-20 backdrop-blur text-base font-light pr-32 leading-6">
-
-
+      <div className="w-1/2 py-20 text-base font-light pr-32 leading-6 z-10">
         {/* <div className="w-32 h-32 bg-blue-900 rounded-full absolute z-0 blur-3xl right-0 top-96"></div> */}
 
-
         <div className="m-t-1 pl-4 z-10 relative">
-          <p className="line-clamp-6">
+          <p className="">
             I am a graduate of the Yogyakarta University of Technology with a
             degree in Informatics, with a GPA of 3.79 which shows high
             dedication to my education. As a junior fullstack web developer, I
@@ -205,14 +206,14 @@ const Home = () => {
           </p>
         </div>
 
-        <div className="mt-40 text-base"> 
+        <div className="mt-40 text-base">
           {/* first */}
-          <div className="rounded-lg p-5 hover:bg-sky-500/[.06] border-blue-950 ">
+          <div className="rounded-xl p-5 hover:bg-sky-500/[.06] border-blue-950 ">
             <div className="flex justify-between text-slate-100">
               <div className="font-semibold">Clarus Architect</div>
               <div className="font-thin">2020 - 2022</div>
             </div>
-            <div className="py-2">Junior Fullstack Web Developer</div>
+            <div className="py-2 text-sky-50">Junior Fullstack Web Developer</div>
 
             <div className="desc text-sm">
               I had the opportunity to be a full stack web developer and digital
@@ -221,32 +222,42 @@ const Home = () => {
               <br />
               My accomplishment: <br />
               - Develop an SEO friendly online architectural services booking
-              website. <br />
-              - SEO optimization and management of Google ads on the site.{" "}
-              <br />- to work together as a team in the process of solving the
-              problem.
+              website. <br />- SEO optimization and management of Google ads on
+              the site. <br />- to work together as a team in the process of
+              solving the problem.
             </div>
 
-            <div className="flex text-xs p-4 pl-0 text-blue-500 gap-2">
-              <span className="p-1 px-3 bg-blue-700/[.2] rounded-full">Laravel</span>
-              <span className="p-1 px-3 bg-blue-700/[.2] rounded-full">HTML</span>
-              <span className="p-1 px-3 bg-blue-700/[.2] rounded-full">CSS</span>
-              <span className="p-1 px-3 bg-blue-700/[.2] rounded-full">Javascript</span>
-              <span className="p-1 px-3 bg-blue-700/[.2] rounded-full">jQuery</span>
-              <span className="p-1 px-3 bg-blue-700/[.2] rounded-full">SEO</span> 
+            <div className="flex text-xs p-4 pl-0 text-sky-400 gap-2">
+              <span className="p-1 px-3 bg-blue-700/[.2] rounded-full">
+                Laravel
+              </span>
+              <span className="p-1 px-3 bg-blue-700/[.2] rounded-full">
+                HTML
+              </span>
+              <span className="p-1 px-3 bg-blue-700/[.2] rounded-full">
+                CSS
+              </span>
+              <span className="p-1 px-3 bg-blue-700/[.2] rounded-full">
+                Javascript
+              </span>
+              <span className="p-1 px-3 bg-blue-700/[.2] rounded-full">
+                jQuery
+              </span>
+              <span className="p-1 px-3 bg-blue-700/[.2] rounded-full">
+                SEO
+              </span>
             </div>
-
           </div>
 
           {/* second */}
-          <div className="rounded-lg p-5 hover:bg-sky-500/[.06] border-blue-950 mt-4">
+          <div className="rounded-xl p-5 hover:bg-sky-500/[.06] border-blue-950 mt-4">
             <div className="flex justify-between text-slate-100">
               <div className="font-semibold">
                 PT Pranala Digital Transmaritim
               </div>
               <div className="font-thin">2018</div>
             </div>
-            <div className="py-2">Junior Software Engineer Internship</div>
+            <div className="py-2 text-sky-50">Junior Software Engineer Internship</div>
 
             <div className="desc text-sm">
               I had the opportunity to be a full stack web developer and digital
@@ -262,27 +273,32 @@ const Home = () => {
               applications.
             </div>
 
-            <div className="flex text-xs p-4 pl-0 text-blue-400 gap-2">
-              <span className="p-1 px-3 bg-blue-700/[.2] rounded-full">C++</span>
+            <div className="flex text-xs p-4 pl-0 text-sky-400 gap-2">
+              <span className="p-1 px-3 bg-blue-700/[.2] rounded-full">
+                C++
+              </span>
               <span className="p-1 px-3 bg-blue-700/[.2] rounded-full">Qt</span>
-              <span className="p-1 px-3 bg-blue-700/[.2] rounded-full">PHP</span>
-              <span className="p-1 px-3 bg-blue-700/[.2] rounded-full">HTML</span>
-              <span className="p-1 px-3 bg-blue-700/[.2] rounded-full">CSS</span>
-              <span className="p-1 px-3 bg-blue-700/[.2] rounded-full">javascript</span>
+              <span className="p-1 px-3 bg-blue-700/[.2] rounded-full">
+                PHP
+              </span>
+              <span className="p-1 px-3 bg-blue-700/[.2] rounded-full">
+                HTML
+              </span>
+              <span className="p-1 px-3 bg-blue-700/[.2] rounded-full">
+                CSS
+              </span>
+              <span className="p-1 px-3 bg-blue-700/[.2] rounded-full">
+                javascript
+              </span>
             </div>
           </div>
         </div>
 
         {/* last project */}
-        <div className="pl-5 mt-20">
-          test
-        </div>
+        <div className="pl-5 mt-20">its, my last project</div>
 
         {/* footer */}
-        <footer className="pl-5 mt-20">
-          hy, its my footer
-        </footer>
-
+        <footer className="pl-5 mt-20">hy, its my footer</footer>
       </div>
     </div>
   );

@@ -7,7 +7,11 @@ export default {
     fontFamily:{
       poppins: ["Poppins", "sans-serif"],
     },
-    extend: {},
+    extend: {
+      animation: {
+        'bounce-slow': 'bounce 10s infinite',
+      }
+    },
   },
   plugins: [],
 }
