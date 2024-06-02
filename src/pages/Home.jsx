@@ -211,7 +211,7 @@ const Home = () => {
       </div>
 
       {/* right */}
-      <div className="w-1/2 py-20 backdrop-blur text-base">
+      <div className="w-1/2 py-20 backdrop-blur text-base pr-24">
         <div className="m-t-1 pl-4">
           <p className="line-clamp-6">
             I am a graduate of the Yogyakarta University of Technology with a
@@ -220,7 +220,7 @@ const Home = () => {
             have extensive experience in various software development
             technologies.
           </p>
-          <p className="pt-4">
+          <p className="pt-5">
             I am skilled in web application development using{" "}
             <span className="text-white font-medium">Java Spring Boot</span> for
             the backend, as well as the{" "}
@@ -233,7 +233,7 @@ const Home = () => {
             development in the field of{" "}
             <span className="text-white">Machine Learning</span>.
           </p>
-          <p className="pt-4">
+          <p className="pt-5">
             With an unwavering spirit to continuously grow and expand my
             knowledge in this dynamic industry, I am ready to face new
             challenges and contribute significantly to creating innovative and
@@ -241,12 +241,12 @@ const Home = () => {
           </p>
         </div>
 
-        <div className="mt-20">
+        <div className="mt-40">
           {/* first */}
           <div className="rounded-lg p-5 hover:bg-sky-500/[.06] border-blue-950 ">
             <div className="flex justify-between text-slate-100">
               <div className="font-semibold">Clarus Architect</div>
-              <div>{"-->"}</div>
+              <div>{"2020 - 2022"}</div>
             </div>
             <div className="py-2">Junior Fullstack Web Developer</div>
 
@@ -262,17 +262,26 @@ const Home = () => {
               <br />- to work together as a team in the process of solving the
               problem.
             </div>
+
+            <div className="flex text-xs p-4 pl-0 text-blue-400 gap-2">
+              <span className="p-1 px-3 bg-blue-700/[.3] rounded-full">Laravel</span>
+              <span className="p-1 px-3 bg-blue-700/[.3] rounded-full">HTML</span>
+              <span className="p-1 px-3 bg-blue-700/[.3] rounded-full">CSS</span>
+              <span className="p-1 px-3 bg-blue-700/[.3] rounded-full">Javascript</span>
+              <span className="p-1 px-3 bg-blue-700/[.3] rounded-full">jQuery</span>
+            </div>
+
           </div>
 
           {/* second */}
-          <div className="rounded-lg p-5 hover:bg-sky-500/[.06] border-blue-950 ">
+          <div className="rounded-lg p-5 hover:bg-sky-500/[.06] border-blue-950 mt-4">
             <div className="flex justify-between text-slate-100">
               <div className="font-semibold">
                 PT Pranala Digital Transmaritim
               </div>
-              <div>{"-->"}</div>
+              <div>{"2017"}</div>
             </div>
-            <div className="py-2">Junior Fullstack Web Developer</div>
+            <div className="py-2">Junior Software Engineer Internship</div>
 
             <div className="desc text-sm">
               I had the opportunity to be a full stack web developer and digital
@@ -287,6 +296,15 @@ const Home = () => {
               <br />- Developed and implemented various features for desktop
               applications.
             </div>
+
+            <div className="flex text-xs p-4 pl-0 text-blue-400 gap-2">
+              <span className="p-1 px-3 bg-blue-700/[.3] rounded-full">C++</span>
+              <span className="p-1 px-3 bg-blue-700/[.3] rounded-full">Qt</span>
+              <span className="p-1 px-3 bg-blue-700/[.3] rounded-full">PHP</span>
+              <span className="p-1 px-3 bg-blue-700/[.3] rounded-full">HTML</span>
+              <span className="p-1 px-3 bg-blue-700/[.3] rounded-full">CSS</span>
+            </div>
+          
           </div>
         </div>
       </div>
