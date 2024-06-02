@@ -8,7 +8,9 @@ const CustomCursor = () => {
   useEffect(() => {
     const moveCursor = (e) => {
       const { clientX, clientY } = e;
-      setPosition({ x: clientX, y: clientY });
+      const adjustedX = clientX + window.scrollX;
+      const adjustedY = clientY + window.scrollY;
+      setPosition({ x: adjustedX, y: adjustedY });
     };
 
     document.addEventListener('mousemove', moveCursor);

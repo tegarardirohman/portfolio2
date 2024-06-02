@@ -211,7 +211,7 @@ const Home = () => {
       </div>
 
       {/* right */}
-      <div className="w-1/2 py-20 backdrop-blur text-base pr-24">
+      <div className="w-1/2 py-20 backdrop-blur text-base font-light pr-24">
         <div className="m-t-1 pl-4">
           <p className="line-clamp-6">
             I am a graduate of the Yogyakarta University of Technology with a
@@ -241,12 +241,12 @@ const Home = () => {
           </p>
         </div>
 
-        <div className="mt-40">
+        <div className="mt-40 text-base">
           {/* first */}
           <div className="rounded-lg p-5 hover:bg-sky-500/[.06] border-blue-950 ">
             <div className="flex justify-between text-slate-100">
               <div className="font-semibold">Clarus Architect</div>
-              <div>{"2020 - 2022"}</div>
+              <div className="font-thin">2020 - 2022</div>
             </div>
             <div className="py-2">Junior Fullstack Web Developer</div>
 
@@ -263,12 +263,12 @@ const Home = () => {
               problem.
             </div>
 
-            <div className="flex text-xs p-4 pl-0 text-blue-400 gap-2">
-              <span className="p-1 px-3 bg-blue-700/[.3] rounded-full">Laravel</span>
-              <span className="p-1 px-3 bg-blue-700/[.3] rounded-full">HTML</span>
-              <span className="p-1 px-3 bg-blue-700/[.3] rounded-full">CSS</span>
-              <span className="p-1 px-3 bg-blue-700/[.3] rounded-full">Javascript</span>
-              <span className="p-1 px-3 bg-blue-700/[.3] rounded-full">jQuery</span>
+            <div className="flex text-xs p-4 pl-0 text-blue-500 gap-2">
+              <span className="p-1 px-3 bg-blue-700/[.2] rounded-full">Laravel</span>
+              <span className="p-1 px-3 bg-blue-700/[.2] rounded-full">HTML</span>
+              <span className="p-1 px-3 bg-blue-700/[.2] rounded-full">CSS</span>
+              <span className="p-1 px-3 bg-blue-700/[.2] rounded-full">Javascript</span>
+              <span className="p-1 px-3 bg-blue-700/[.2] rounded-full">jQuery</span>
             </div>
 
           </div>
@@ -279,7 +279,7 @@ const Home = () => {
               <div className="font-semibold">
                 PT Pranala Digital Transmaritim
               </div>
-              <div>{"2017"}</div>
+              <div className="font-thin">2017</div>
             </div>
             <div className="py-2">Junior Software Engineer Internship</div>
 
@@ -298,11 +298,12 @@ const Home = () => {
             </div>
 
             <div className="flex text-xs p-4 pl-0 text-blue-400 gap-2">
-              <span className="p-1 px-3 bg-blue-700/[.3] rounded-full">C++</span>
-              <span className="p-1 px-3 bg-blue-700/[.3] rounded-full">Qt</span>
-              <span className="p-1 px-3 bg-blue-700/[.3] rounded-full">PHP</span>
-              <span className="p-1 px-3 bg-blue-700/[.3] rounded-full">HTML</span>
-              <span className="p-1 px-3 bg-blue-700/[.3] rounded-full">CSS</span>
+              <span className="p-1 px-3 bg-blue-700/[.2] rounded-full">C++</span>
+              <span className="p-1 px-3 bg-blue-700/[.2] rounded-full">Qt</span>
+              <span className="p-1 px-3 bg-blue-700/[.2] rounded-full">PHP</span>
+              <span className="p-1 px-3 bg-blue-700/[.2] rounded-full">HTML</span>
+              <span className="p-1 px-3 bg-blue-700/[.2] rounded-full">CSS</span>
+              <span className="p-1 px-3 bg-blue-700/[.2] rounded-full">javascript</span>
             </div>
           
           </div>
