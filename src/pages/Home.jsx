@@ -4,7 +4,18 @@ import Hero from "../components/Hero";
 
 const Home = () => {
   return (
-    <div className="container mx-auto flex font-sans px-28 text-base m-4 text-slate-500 font-poppins">
+    <div className="container mx-auto flex font-sans px-28 text-base m-4 text-slate-400 font-poppins">
+              <div className="w-48 h-48 bg-blue-950 rounded-full fixed z-0 top-0 left-0 -mt-24 -ml-24"></div>
+              <div className="w-96 h-96 border-2 border-blue-950 rounded-full fixed z-0 top-0 left-0 -mt-48 -ml-48"></div>
+              <div className="w-[70rem] h-[70rem] border-2 border-blue-950 rounded-full fixed z-0 top-0 left-0 -mt-[35rem] -ml-[35rem]"></div>
+              <div className="w-[100rem] h-[100rem] border-2 border-blue-950 rounded-full fixed z-0 top-0 left-0 -mt-[50rem] -ml-[50rem]"></div>
+              <div className="w-[140rem] h-[140rem] border-2 border-blue-950 rounded-full fixed z-0 top-0 left-0 -mt-[70rem] -ml-[70rem]"></div>
+              <div className="w-[180rem] h-[180rem] border-2 border-blue-950 rounded-full fixed z-0 top-0 left-0 -mt-[90rem] -ml-[90rem]"></div>
+              <div className="w-[220rem] h-[220rem] border-2 border-blue-950 rounded-full fixed z-0 top-0 left-0 -mt-[110rem] -ml-[110rem]"></div>
+
+              <div className="fixed bottom-0 right-0 p-10">Up</div>
+              
+
       {/* left */}
       <div className="h-screen w-1/2 flex justify-end px-24">
         {/* top */}
@@ -13,7 +24,7 @@ const Home = () => {
             Tegar Ardi Rohman
           </h1>
 
-          <h2 className="pt-4 text-md">Junior Fullstack Web Developer</h2>
+          <h2 className="pt-4 text-md text-blue-100">Junior Fullstack Web Developer</h2>
 
           <h3 className="pt-4 leading-normal">
             Blending Creativity and Code, Turning Ideas into Reality.
@@ -69,7 +80,7 @@ const Home = () => {
               <li className="mr-5 text-xs shrink-0">
                 <a
                   className="block hover:text-slate-200"
-                  href="https://github.com/bchiang7"
+                  href="https://github.com/tegarardirohman"
                   target="_blank"
                   rel="noreferrer noopener"
                   aria-label="GitHub (opens in a new tab)"
@@ -90,7 +101,7 @@ const Home = () => {
               <li className="mr-5 text-xs shrink-0">
                 <a
                   className="block hover:text-slate-200"
-                  href="https://www.linkedin.com/in/bchiang7/"
+                  href="https://www.linkedin.com/in/tegarardirohman/"
                   target="_blank"
                   rel="noreferrer noopener"
                   aria-label="LinkedIn (opens in a new tab)"
@@ -111,35 +122,7 @@ const Home = () => {
               <li className="mr-5 text-xs shrink-0">
                 <a
                   className="block hover:text-slate-200"
-                  href="https://codepen.io/bchiang7"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  aria-label="CodePen (opens in a new tab)"
-                  title="CodePen"
-                >
-                  <span className="sr-only">CodePen</span>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 64 64"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    className="h-6 w-6"
-                    aria-hidden="true"
-                  >
-                    <path
-                      d="M3.06 41.732L32 60.932l28.94-19.2V22.268L32 3.068l-28.94 19.2zm57.878 0L32 22.268 3.06 41.732m0-19.463L32 41.47l28.94-19.2M32 3.068v19.2m0 19.463v19.2"
-                      strokeWidth="5"
-                    ></path>
-                  </svg>
-                </a>
-              </li>
-              <li className="mr-5 text-xs shrink-0">
-                <a
-                  className="block hover:text-slate-200"
-                  href="https://instagram.com/bchiang7"
+                  href="https://instagram.com/tegarardrhmn"
                   target="_blank"
                   rel="noreferrer noopener"
                   aria-label="Instagram (opens in a new tab)"
@@ -181,38 +164,19 @@ const Home = () => {
                   </svg>
                 </a>
               </li>
-              <li className="mr-5 text-xs shrink-0">
-                <a
-                  className="block hover:text-slate-200"
-                  href="https://www.goodreads.com/user/show/143480747-brittany-chiang"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  aria-label="Goodreads (opens in a new tab)"
-                  title="Goodreads"
-                >
-                  <span className="sr-only">Goodreads</span>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 1024 1024"
-                    fill="currentColor"
-                    className="h-6 w-6"
-                    aria-hidden="true"
-                  >
-                    <path
-                      d="M663.8 382.4c10.2 74.6-9.4 158-71.8 201.4-44.6 31-105.6 28.2-141.6 11.4-74.2-34.6-99-117.2-93.6-194.4 8.6-121.8 81.8-175.8 150.6-175 93.8-0.4 143.6 63.6 156.4 156.6zM960 176v672c0 61.8-50.2 112-112 112H176c-61.8 0-112-50.2-112-112V176c0-61.8 50.2-112 112-112h672c61.8 0 112 50.2 112 112zM724 626.4s-0.2-68-0.2-434.6h-58v80.6c-1.6 0.6-2.4-1-3.2-2.4-19.2-41.4-71.8-92.6-152-92-103.8 0.8-174.4 62.4-201.2 155.6-8.6 29.8-11.6 60.2-11 91.2 3.4 155.8 90.2 235.6 224.8 230.4 57.8-2.2 109-34 138-90.4 1-2 2.2-3.8 3.4-5.8 0.4 0.2 0.8 0.2 1.2 0.4 0.6 7.6 0.4 61.4 0.2 69-0.4 29.6-4 59-14.4 87-15.6 42-44.6 69.4-89 79-35.6 7.8-71.2 7.6-106.4-2.4-43-12.2-73-38-82.2-83.6-0.6-3.2-2.6-2.6-4.6-2.6h-53.6c1.6 21.2 6.4 40.6 17 58.4 48.4 81 165.4 97 256.4 74.8 99.8-24.6 134.6-109.8 134.8-212.6z"
-                      fill=""
-                    ></path>
-                  </svg>
-                </a>
-              </li>
             </ul>
           </div>
         </div>
       </div>
 
       {/* right */}
-      <div className="w-1/2 py-20 backdrop-blur text-base font-light pr-24">
-        <div className="m-t-1 pl-4">
+      <div className="w-1/2 py-20 backdrop-blur text-base font-light pr-32 leading-6">
+
+
+        {/* <div className="w-32 h-32 bg-blue-900 rounded-full absolute z-0 blur-3xl right-0 top-96"></div> */}
+
+
+        <div className="m-t-1 pl-4 z-10 relative">
           <p className="line-clamp-6">
             I am a graduate of the Yogyakarta University of Technology with a
             degree in Informatics, with a GPA of 3.79 which shows high
@@ -241,7 +205,7 @@ const Home = () => {
           </p>
         </div>
 
-        <div className="mt-40 text-base">
+        <div className="mt-40 text-base"> 
           {/* first */}
           <div className="rounded-lg p-5 hover:bg-sky-500/[.06] border-blue-950 ">
             <div className="flex justify-between text-slate-100">
@@ -269,6 +233,7 @@ const Home = () => {
               <span className="p-1 px-3 bg-blue-700/[.2] rounded-full">CSS</span>
               <span className="p-1 px-3 bg-blue-700/[.2] rounded-full">Javascript</span>
               <span className="p-1 px-3 bg-blue-700/[.2] rounded-full">jQuery</span>
+              <span className="p-1 px-3 bg-blue-700/[.2] rounded-full">SEO</span> 
             </div>
 
           </div>
@@ -279,7 +244,7 @@ const Home = () => {
               <div className="font-semibold">
                 PT Pranala Digital Transmaritim
               </div>
-              <div className="font-thin">2017</div>
+              <div className="font-thin">2018</div>
             </div>
             <div className="py-2">Junior Software Engineer Internship</div>
 
@@ -305,9 +270,19 @@ const Home = () => {
               <span className="p-1 px-3 bg-blue-700/[.2] rounded-full">CSS</span>
               <span className="p-1 px-3 bg-blue-700/[.2] rounded-full">javascript</span>
             </div>
-          
           </div>
         </div>
+
+        {/* last project */}
+        <div className="pl-5 mt-20">
+          test
+        </div>
+
+        {/* footer */}
+        <footer className="pl-5 mt-20">
+          hy, its my footer
+        </footer>
+
       </div>
     </div>
   );

@@ -24,8 +24,8 @@ const CustomCursor = () => {
     <div
       className="w-96 h-96 opacity-5 box
       bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))]  
-      from-white via-slate-300  
-      to-slate-600 blur-md pointer-events-none absolute z-0 rounded-full -ml-48 -mt-48 shadow-[0_0_2rem_12rem_rgba(255,255,255,0.5)]"
+      from-white via-blue-800  
+      to-blue-950 blur-md pointer-events-none absolute z-0 rounded-full -ml-48 -mt-48 shadow-[0_0_2rem_12rem_rgba(0,0,255,0.5)]"
       style={{ left: `${position.x}px`, top: `${position.y}px` }}
     >
     </div>
